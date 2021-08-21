@@ -45,7 +45,31 @@ COVID-19 is a global crisis and has impacted much more than just public health. 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The work can be replicated well using Google Colab. First of all, we need to mount the google drive. The next importand step is to select the patameters carefully (provided in a section in the script).
+The work can be replicated well using Google Colab. First of all, we need to mount the google drive. The next important step is to select the patameters carefully (provided in a section in the script). 
+The scripts should be executed in the following sequence:
+1. Question Classification
+* Question Classification Model Training: 1_BERT_Question_Classifier_Classifier.ipynb
+* Question Class Prediction: 2_COVID_Question_Type_Prediction.ipynb
+2. Exploratory Data Analysis
+* EDA: 3_Detailed_Exploratory_Data_Analysis.ipynb!
+3. Finetuing
+* GPU: 4_GPU_Second_Stage_Finetuning_roberta-base-squad2.ipynb
+* TPU: 5_TPU_Second_Stage_Finetuning_roberta-base-squad2.ipynb
+4. Model Evaluation
+* All Checkpoints: 6_Evaluate_checkpoints_after_model_training.ipynb
+* Single model: 7_Evaluate_single_model_roberta-squad2.ipynb
+5. Improved Model Inferences with score
+* Improed model inferences: 8_Improved_inference_with_scores.ipynb
+6. External Answer Verification Mechanism
+* Answer verification: 9_External_Answer_Verification_Model_Training_&_Predictions.ipynb
+
+
+
+
+
+
+
+
 
 ### Prerequisites
 
