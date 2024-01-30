@@ -98,7 +98,7 @@ We are yet to see the impact of the following on the COVID-19 Question Answering
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Amar Kumar](https://www.linkedin.com/in/amar03/)
+Name - [Amar Kumar](https://www.linkedin.com/in/amar03/)
 
 Project Link: [https://github.com/akbism/COVID-QA](https://github.com/akbism/COVID-QA)
 
